@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindows | كندوز للحلول التقنية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --brand-blue: #1a233a;
+            --brand-gold: #fcc419;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .bg-brand-blue { background-color: var(--brand-blue); }
+        .text-brand-gold { color: var(--brand-gold); }
+        .border-brand-gold { border-color: var(--brand-gold); }
+        .logo-symbol {
+            width: 50px;
+            height: 50px;
+            background-color: var(--brand-gold);
+            mask: url('https://i.ibb.co/LzNfS6P/1000111871.png') no-repeat center; /* Note: You can replace this with your actual image path */
+            mask-size: contain;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-right">
+
+    <nav class="fixed w-full z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center space-x-4 space-x-reverse">
+                    <img src="https://i.ibb.co/LzNfS6P/1000111871.png" alt="Kindows Logo" class="h-12 w-12 rounded">
+                    <span class="text-2xl font-bold text-brand-blue tracking-wider">KINDOWS</span>
+                </div>
+                <div class="hidden md:flex space-x-8 space-x-reverse text-gray-700 font-medium">
+                    <a href="#about" class="hover:text-brand-gold transition">من نحن</a>
+                    <a href="#services" class="hover:text-brand-gold transition">حلولنا</a>
+                    <a href="#contact" class="bg-brand-blue text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition">اتصل بنا</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-brand-blue pt-40 pb-24 text-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">كندوز للحلول التقنية</h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8">أجود وأحدث الحلول التقنية للمباني في سلطنة عمان منذ 2003</p>
+            <div class="w-24 h-1 bg-brand-gold mx-auto mb-8"></div>
+            <p class="max-w-3xl mx-auto text-lg text-gray-300 leading-relaxed">
+                نقدم ما يزيد على (25) حل تقني ذكي بشكل مترابط ومتكامل للمنازل، المجمعات السكنية، الفنادق، ومراكز بيع التجزئة.
+            </p>
+        </div>
+    </header>
+
+    <section id="services" class="py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brand-blue">أبرز حلولنا الذكية</h2>
+                <p class="text-gray-500 mt-2 italic text-lg">نحو مبانٍ أكثر استدامة وراحة</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-8 border-b-4 border-brand-gold shadow-sm hover:shadow-xl transition text-center">
+                    <i class="fas fa-elevator text-4xl text-brand-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">مصاعد ذكية</h3>
+                </div>
+                <div class="bg-white p-8 border-b-4 border-brand-gold shadow-sm hover:shadow-xl transition text-center">
+                    <i class="fas fa-lightbulb text-4xl text-brand-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">إنارة ذكية</h3>
+                </div>
+                <div class="bg-white p-8 border-b-4 border-brand-gold shadow-sm hover:shadow-xl transition text-center">
+                    <i class="fas fa-volume-up text-4xl text-brand-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">أنظمة صوتية</h3>
+                </div>
+                <div class="bg-white p-8 border-b-4 border-brand-gold shadow-sm hover:shadow-xl transition text-center">
+                    <i class="fas fa-water text-4xl text-brand-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">معالجة مياه</h3>
+                </div>
+                <div class="bg-white p-8 border-b-4 border-brand-gold shadow-sm hover:shadow-xl transition text-center">
+                    <i class="fas fa-wifi text-4xl text-brand-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">اتصال ذكي</h3>
+                </div>
+                <div class="bg-white p-8 border-b-4 border-brand-gold shadow-sm hover:shadow-xl transition text-center">
+                    <i class="fas fa-door-closed text-4xl text-brand-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">بوابات ذكية</h3>
+                </div>
+                <div class="bg-white p-8 border-b-4 border-brand-gold shadow-sm hover:shadow-xl transition text-center">
+                    <i class="fas fa-shield-alt text-4xl text-brand-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">أنظمة سلامة</h3>
+                </div>
+                <div class="bg-white p-8 border-b-4 border-brand-gold shadow-sm hover:shadow-xl transition text-center flex flex-col justify-center">
+                    <span class="text-brand-blue font-bold text-xl">+25 حلاً إضافياً</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-blue text-white py-12 border-t-8 border-brand-gold">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <img src="https://i.ibb.co/LzNfS6P/1000111871.png" alt="Kindows Logo" class="h-16 w-16 mx-auto mb-4 rounded">
+            <h2 class="text-2xl font-bold mb-2">KINDOWS</h2>
+            <p class="text-gray-400">جميع الحقوق محفوظة © 2026 | شركة كندوز للحلول التقنية</p>
+        </div>
+    </footer>
+
+</body>
+</html>
